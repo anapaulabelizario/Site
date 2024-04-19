@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    /* Aplica a imagem */
+    background-image: url(img/img3.jpg);
+    /* Não repetir a imagem */
+    background-repeat: no-repeat;
+    /* Cobrir todo o fundo da tela com a mesma imagem */
+    background-size: cover;
+}
+
+.login {
+    display: flex;
+justify-content: end;
+margin-top: 20px;
+margin-right: 40px;
+}
+
+.login a {
+    /* Deixa o texto maiusculo */
+    text-transform: uppercase;
+    /* Tirar o sublinhado  */
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 590;
+    color: #000;
+    background-color: beige;
+    opacity: 30%;
+    padding: 10px 30px;
+    border-radius: 15px;
+    
+}
+h1{
+    text-transform: uppercase;
+    font-size: 70px;
+    color: beige;
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+      3px 3px 2px #000,
+      -3px 3px 2px #000,
+      -3px -3px 0 #000,
+      3px -3px 0 #000;
+
+}
+.informacoes p{
+    font-size: 30px;
+    color: beige;
+    font-family: "Indie Flower", cursive;
+    font-weight: 5000;
+    text-align: center;
+    color: #f8f8f5;
+    text-shadow:
+    2px 0.2px 0.2px #000,
+    -3px 0.2px 0.2px #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+    
+}
+
+#inputNome{
+    width: 365px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#inputEmail {
+    width: 340;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+
+}
+.botaoLogin{
+    width: 200px;
+    color: #000;
+    background-color: beige;
+    font-family: "Indie Flower", cursive;
+    border-radius: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-style: none;
+    opacity: 60%;
+    height: 40px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.email{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 380px;
+
+}
+
+.redes{
+
+}
+
+.redes img{
+    width: 40px;
+
+}
